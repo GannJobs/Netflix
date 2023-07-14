@@ -34,6 +34,7 @@ header nav a{
     text-decoration: none;
     color: #aaa;
     margin-top: 10px;
+    margin-right: 10px;
 }
 
 header nav a:hover{
@@ -56,8 +57,48 @@ header nav a:hover{
 
 .filme-principal .descricao{
     margin-bottom: 40px;
+    margin-top: 10px;
 }
 
 .titulo{
     font-size: 40px;
+    font-family: 'Trebuchet MS';
+}
+
+.botao{
+    background-color: rgba(0,0,0,.50);
+    border: none;
+    color: white;
+
+    padding: 15px 30px;
+    margin-right: 15px;
+    font-size: 14px;
+
+    cursor: pointer;
+    transition: .3s ease all;
+}
+
+.botao:hover{
+    background-color: #f0f0f0;
+    color: #141414;
+}
+
+.botao i{
+    padding-right: 10px;
+}
+
+.container{
+    margin-left: 20px;
+}
+
+.filme-principal .container{
+    width: 70%;
+}
+
+.item{
+
+}
+
+.item img{
+    
 }
